@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [23/Jul/2022:09:41:32 +0800] "GET /commonParam?name=it HTTP/1.1" 500 4891 http-bio-80-exec-2 57
+0:0:0:0:0:0:0:1 - - [23/Jul/2022:09:42:37 +0800] "GET /commonParam?name=it&age=15 HTTP/1.1" 200 25 http-bio-80-exec-4 18
+0:0:0:0:0:0:0:1 - - [23/Jul/2022:09:46:09 +0800] "GET /commonParam HTTP/1.1" 500 4891 http-bio-80-exec-7 3
+0:0:0:0:0:0:0:1 - - [23/Jul/2022:09:46:20 +0800] "POST /commonParam HTTP/1.1" 200 25 http-bio-80-exec-9 1
+0:0:0:0:0:0:0:1 - - [23/Jul/2022:09:47:37 +0800] "POST /commonParam HTTP/1.1" 200 25 http-bio-80-exec-2 1
